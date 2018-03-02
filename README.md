@@ -1,5 +1,8 @@
 # LZW
 
+## What is this code?
+The Lempel–Ziv–Welch (LZW) is a data compression algorithm.  I did my own version of the LZW compressor and decompressor. I used 12-bit fixed with codes.
+
 ## Input Data
 There are three examples of my code running:
 - file1.txt <-> file1.z
@@ -41,4 +44,5 @@ There are :
 -	DecompressToStream: do the decompression, using the readCode method
 -	initializeDictionary: initialize (or reinitialize) the dictionary when needed
 
-
+### To-do list
+- the code is written for a 12-bit fixed with codes. I would like to improve it and make it possible to use with any number of bits.
